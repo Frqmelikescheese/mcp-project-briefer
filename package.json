@@ -4,7 +4,7 @@
   "description": "MCP server to summarize project structure and logic for other AIs",
   "type": "module",
   "bin": {
-    "mcp-project-briefer": "./dist/index.js"
+    "mcp-project-briefer": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
