@@ -1,0 +1,28 @@
+{
+  "name": "mcp-project-briefer",
+  "version": "1.0.0",
+  "description": "MCP server to summarize project structure and logic for other AIs",
+  "type": "module",
+  "bin": {
+    "mcp-project-briefer": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/index.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "latest"
+  },
+  "author": "Frqme",
+  "license": "SEE LICENSE IN LICENSE"
+}
